@@ -7,8 +7,10 @@ URL:		http://www.github.com/ghibo/mageia-prime
 Source0:	https://github.com/ghibo/mageia-prime/archive/v%{version}.tar.gz
 License:	GPLv3
 Requires:	pciutils
-Requires:	urpmi
 Requires:	kmod
+Requires:	dnf
+Requires:	dnf-command(install)
+Requires:	dnf-command(config-manager)
 
 %description
 A tool for easily configuring NVidia Prime under Mageia GNU/Linux.
